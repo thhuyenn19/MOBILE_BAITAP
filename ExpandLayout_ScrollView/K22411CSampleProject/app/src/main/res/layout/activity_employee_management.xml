@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:overScrollMode="always"
+    android:background="#FFFFFF"
+    android:fadeScrollbars="false"
+    android:scrollbarThumbVertical="@android:color/darker_gray"
+    android:scrollbarTrackVertical="@android:color/transparent">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/employeeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_employee_management"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#202020"
+            android:gravity="center"
+            android:paddingBottom="20dp" />
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1,2">
+
+
+            <TableRow android:background="#DDDDDD">
+                <TextView android:text="@string/table_header_id"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:padding="8dp"
+                    android:gravity="center"
+                    android:background="#CCCCCC"/>
+                <TextView android:text="@string/table_header_name"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:padding="8dp"
+                    android:background="#CCCCCC"/>
+                <TextView android:text="@string/table_header_email"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:padding="8dp"
+                    android:background="#CCCCCC"/>
+            </TableRow>
+
+            <TableRow android:background="#F9F9F9"><TextView android:text="1" android:padding="8dp"/><TextView android:text="Nguyễn Văn An" android:padding="8dp"/><TextView android:text="an.nguyen@company.com" android:padding="8dp"/></TableRow>
+            <TableRow android:background="#FFFFFF"><TextView android:text="2" android:padding="8dp"/><TextView android:text="Trần Thị Bình" android:padding="8dp"/><TextView android:text="binh.tran@company.com" android:padding="8dp"/></TableRow>
+            <TableRow android:background="#F9F9F9"><TextView android:text="3" android:padding="8dp"/><TextView android:text="Lê Văn Cường" android:padding="8dp"/><TextView android:text="cuong.le@company.com" android:padding="8dp"/></TableRow>
+            <TableRow android:background="#FFFFFF"><TextView android:text="4" android:padding="8dp"/><TextView android:text="Phạm Thị Dung" android:padding="8dp"/><TextView android:text="dung.pham@company.com" android:padding="8dp"/></TableRow>
+            <TableRow android:background="#F9F9F9"><TextView android:text="5" android:padding="8dp"/><TextView android:text="Võ Văn Đức" android:padding="8dp"/><TextView android:text="duc.vo@company.com" android:padding="8dp"/></TableRow>
+            <TableRow android:background="#FFFFFF"><TextView android:text="6" android:padding="8dp"/><TextView android:text="Nguyễn Thị Hạnh" android:padding="8dp"/><TextView android:text="hanh.nguyen@company.com" android:padding="8dp"/></TableRow>
+            <TableRow android:background="#F9F9F9"><TextView android:text="7" android:padding="8dp"/><TextView android:text="Trần Văn Hùng" android:padding="8dp"/><TextView android:text="hung.tran@company.com" android:padding="8dp"/></TableRow>
+            <TableRow android:background="#FFFFFF"><TextView android:text="8" android:padding="8dp"/><TextView android:text="Lê Thị Hương" android:padding="8dp"/><TextView android:text="huong.le@company.com" android:padding="8dp"/></TableRow>
+            <TableRow android:background="#F9F9F9"><TextView android:text="9" android:padding="8dp"/><TextView android:text="Phan Văn Khải" android:padding="8dp"/><TextView android:text="khai.phan@company.com" android:padding="8dp"/></TableRow>
+            <TableRow android:background="#FFFFFF"><TextView android:text="10" android:padding="8dp"/><TextView android:text="Nguyễn Thị Lan" android:padding="8dp"/><TextView android:text="lan.nguyen@company.com" android:padding="8dp"/></TableRow>
+            <TableRow android:background="#F9F9F9"><TextView android:text="11" android:padding="8dp"/><TextView android:text="Đỗ Văn Long" android:padding="8dp"/><TextView android:text="long.do@company.com" android:padding="8dp"/></TableRow>
+            <TableRow android:background="#FFFFFF"><TextView android:text="12" android:padding="8dp"/><TextView android:text="Trần Thị Mai" android:padding="8dp"/><TextView android:text="mai.tran@company.com" android:padding="8dp"/></TableRow>
+            <TableRow android:background="#F9F9F9"><TextView android:text="13" android:padding="8dp"/><TextView android:text="Lê Văn Minh" android:padding="8dp"/><TextView android:text="minh.le@company.com" android:padding="8dp"/></TableRow>
+            <TableRow android:background="#FFFFFF"><TextView android:text="14" android:padding="8dp"/><TextView android:text="Võ Thị Mỹ" android:padding="8dp"/><TextView android:text="my.vo@company.com" android:padding="8dp"/></TableRow>
+            <TableRow android:background="#F9F9F9"><TextView android:text="15" android:padding="8dp"/><TextView android:text="Nguyễn Văn Nam" android:padding="8dp"/><TextView android:text="nam.nguyen@company.com" android:padding="8dp"/></TableRow>
+            <TableRow android:background="#FFFFFF"><TextView android:text="16" android:padding="8dp"/><TextView android:text="Phạm Thị Ngọc" android:padding="8dp"/><TextView android:text="ngoc.pham@company.com" android:padding="8dp"/></TableRow>
+            <TableRow android:background="#F9F9F9"><TextView android:text="17" android:padding="8dp"/><TextView android:text="Bùi Văn Phát" android:padding="8dp"/><TextView android:text="phat.bui@company.com" android:padding="8dp"/></TableRow>
+            <TableRow android:background="#FFFFFF"><TextView android:text="18" android:padding="8dp"/><TextView android:text="Lý Thị Quỳnh" android:padding="8dp"/><TextView android:text="quynh.ly@company.com" android:padding="8dp"/></TableRow>
+            <TableRow android:background="#F9F9F9"><TextView android:text="19" android:padding="8dp"/><TextView android:text="Trần Văn Quang" android:padding="8dp"/><TextView android:text="quang.tran@company.com" android:padding="8dp"/></TableRow>
+            <TableRow android:background="#FFFFFF"><TextView android:text="20" android:padding="8dp"/><TextView android:text="Lê Thị Thu" android:padding="8dp"/><TextView android:text="thu.le@company.com" android:padding="8dp"/></TableRow>
+        </TableLayout>
+
+
+        <TextView
+            android:id="@+id/employeeDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/employee_description"
+            android:textSize="15sp"
+            android:textColor="#5A5A5A"
+            android:gravity="center_horizontal"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+</ScrollView>
