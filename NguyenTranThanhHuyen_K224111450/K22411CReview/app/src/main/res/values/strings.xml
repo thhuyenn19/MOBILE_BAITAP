@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">K22411CReview</string>
+    <string name="title_login_user_name">Username:</string>
+    <string name="title_login_password">Password:</string>
+    <string name="title_login_save_login_info">Save Login Info</string>
+    <string name="title_login">Login</string>
+    <string name="title_list_product">List Product</string>
+    <string name="title_add_product">Add Product</string>
+    <string name="title_about">About</string>
+    <!-- Labels -->
+    <string name="student_name_label">Họ tên sinh viên</string>
+    <string name="student_id_label">Mã sinh viên</string>
+    <string name="class_name_label">Lớp</string>
+    <string name="email_label">Email</string>
+
+    <!-- Values -->
+    <string name="student_name">Nguyễn Trần Thanh Huyền</string>
+    <string name="student_id">K224111450</string>
+    <string name="class_name">K22411c</string>
+    <string name="email">huyenntt22411c@st.uel.edu.vn</string>
+    <string name="title_product_detail">Product Detail</string>
+</resources>
